@@ -1,0 +1,6 @@
+services:
+  - type: worker
+    name: pocket-signal-bot
+    env: python
+    buildCommand: ""
+    startCommand: python signal_bot_twelvedata.py
